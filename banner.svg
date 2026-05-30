@@ -1,0 +1,50 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="50%" style="stop-color:#161b27"/>
+      <stop offset="100%" style="stop-color:#0d1117"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7928ca;stop-opacity:0.9"/>
+      <stop offset="50%" style="stop-color:#4f46e5;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.9"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.6"/>
+      <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#7928ca;stop-opacity:0.6"/>
+    </linearGradient>
+    <linearGradient id="textgrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#70a5fd"/>
+      <stop offset="100%" style="stop-color:#bf91f3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Wave layer 1 -->
+  <path d="M0,120 C150,80 300,160 450,120 C600,80 750,160 900,120 L900,200 L0,200 Z" fill="url(#wave1)"/>
+
+  <!-- Wave layer 2 -->
+  <path d="M0,145 C120,115 280,175 450,145 C620,115 780,175 900,145 L900,200 L0,200 Z" fill="url(#wave2)"/>
+
+  <!-- Name -->
+  <text x="450" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="44" font-weight="700"
+    fill="url(#textgrad)" text-anchor="middle" letter-spacing="2">Dhivagar G</text>
+
+  <!-- Tagline -->
+  <text x="450" y="108" font-family="'Segoe UI', Arial, sans-serif" font-size="15" font-weight="400"
+    fill="#c9d1d9" text-anchor="middle" letter-spacing="1" opacity="0.9">
+    DevOps &amp; SRE Engineer · Kubernetes · AWS · Python Automation
+  </text>
+
+  <!-- Decorative dots -->
+  <circle cx="80" cy="60" r="3" fill="#70a5fd" opacity="0.5"/>
+  <circle cx="100" cy="40" r="2" fill="#bf91f3" opacity="0.4"/>
+  <circle cx="820" cy="55" r="3" fill="#38bdae" opacity="0.5"/>
+  <circle cx="840" cy="35" r="2" fill="#70a5fd" opacity="0.4"/>
+  <circle cx="55" cy="85" r="1.5" fill="#bf91f3" opacity="0.3"/>
+  <circle cx="845" cy="80" r="1.5" fill="#38bdae" opacity="0.3"/>
+</svg>
