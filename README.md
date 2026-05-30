@@ -1,8 +1,8 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Dhivagar%20G&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=DevOps%20%26%20SRE%20%7C%20Kubernetes%20%7C%20AWS%20%7C%20Python%20Automation&descAlignY=62&descSize=16)
+![header](banner.svg)
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=750&lines=DevOps+%26+SRE+Engineer;Kubernetes+%7C+AWS+%7C+Python+Automation;90%25+Manual+Intervention+Eliminated;Linux+Foundation+Certified+%7C+KEDA)
+### `$ whoami` → DevOps & SRE Engineer · Kubernetes · AWS · Python · Linux Foundation Certified
 
 </div>
 
@@ -229,4 +229,4 @@ class DhivagarG:
 
 ---
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling)
+![footer](footer.svg)
